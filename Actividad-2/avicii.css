@@ -1,0 +1,39 @@
+.button--primero{
+        width: 33%;
+        height: 50%;
+        background-color: rgb(135, 136, 136);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        display: inline-block;
+        padding: 15px 20px;
+        border-color: rgb(135, 136, 136);
+        color: white;
+
+}
+
+.button--segundo{
+    width: 33%;
+    height: 50%;
+    background-color: rgb(135, 136, 136);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline-block;
+    padding: 15px 20px;
+    border-color: rgb(135, 136, 136);
+    color: white;
+}
+
+.button--tercero{
+    width: 33%;
+    height: 50%;
+    background-color: rgb(135, 136, 136);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline-block;
+    padding: 15px 20px;
+    border-color: rgb(135, 136, 136);
+    color: white;
+}
