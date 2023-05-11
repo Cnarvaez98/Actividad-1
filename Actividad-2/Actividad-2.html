@@ -9,21 +9,22 @@
     <title>Iniciando HTML</title>
 </head>
 
-<head>
-    <link rel="stylesheet" href="Actividad-2.html">
-  </head>
-  
-  <body>
-    <nav>
-        <section class="botones">
-            <button class="button--primero">Inicio</button><button class="button--segundo">Sobre Nosotros</button><button class="button--tercero">Contacto</button>
-        </section>
-     
-    </nav>
-  </body>
- 
 <body>
+    <header class="header">
+        <div class="logo">
+            <img src="./fondo.png" alt=" logo">
+        </div>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
+        <br><br>
         <h1>AVICII</h1>
         <h2>Introducción</h2>
         <h3>Avicii, cuyo verdadero nombre era Tim Bergling, fue un famoso DJ, productor musical y compositor sueco
@@ -67,28 +68,28 @@
 
 
         <a target="_blank"
-            href="https://elrescatemusical.com/wp-content/uploads/2017/08/NA68dvZLXDQJ86Wv2wmX1Kg4.jpg">Hola soy un
-            enlace</a>
+            href="https://es.wikipedia.org/wiki/Avicii">Para mayor información oprime aquí</a>
             <br><br>
 
-        <img src="https://elrescatemusical.com/wp-content/uploads/2017/08/NA68dvZLXDQJ86Wv2wmX1Kg4.jpg" alt="imagen">
+        <img class= "Logo2" src="https://i0.wp.com/www.conciertosencore.com.mx/wp-content/uploads/2020/04/PORTADAwebavv.jpg?fit=1920%2C909&ssl=1" alt="imagen">
         <br><br>
         
-        <h1 class="tittle--size--big">Suscribete</h1>
-        <br><br>
+        
+        
         <form action="">
-            <label for="nombre"> Nombre: </label>
-            <input type="text"><br><br>
-            <label for="correo"> Correo: </label>
-            <input type="text"><br><br>
-            <label for="telefono"> Edad: </label>
-            <input type="number"><br><br>
-            <label for="signo-zodiacal"> Signo Zodiacal: </label>
-            <input type="text"><br><br>
-            <label for="estado-civil"> Estado Civil: </label>
-            <input type="text"><br><br>
-            <input type="text"><br><br>
-            <label for="city">Ciudad Nacimiento: </label>
+            <section class="registro">
+                <h1 class="tittle--size--big">Suscribete</h1>
+                <br><br>
+            <label for="nombre"> Nombre: </label><br><br>
+            <input class="datos" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre"><br><br>
+            <label for="correo"> Correo: </label><br><br>
+            <input class="datos" type="email" name="email" id="email" placeholder="Ingrese su Correo"><br><br>
+            <label for="telefono"> Número de contacto: </label><br><br>
+            <input class="datos" type="number" name="contacto" id="contacto"placeholder="Ingrese su Número"><br><br>
+            <label for="estado-civil"> Estado Civil: </label><br><br>
+            <input class="datos" type="text" name="estado-civil" id="estado-civil"placeholder="Ingrese su Estado Civil"><br><br>
+            <label for="city">Ciudad Nacimiento: </label><br><br>
+
             <select>
                 <option value="select">Seleccione su ciudad</option>
                 <option value="Bogota">Bogota</option>
@@ -102,7 +103,7 @@
             <br>
             <br>
             <button type="submit">Enviar</button>
-            
+        </section>
         </form>
 
     </main>

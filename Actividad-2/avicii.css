@@ -1,39 +1,104 @@
-.button--primero{
-        width: 33%;
-        height: 50%;
-        background-color: rgb(135, 136, 136);
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        display: inline-block;
-        padding: 15px 20px;
-        border-color: rgb(135, 136, 136);
-        color: white;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Nunito", sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10px;
+    text-align: center
 
 }
 
-.button--segundo{
-    width: 33%;
-    height: 50%;
-    background-color: rgb(135, 136, 136);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .navbar {
+    list-style: none;
     display: inline-block;
-    padding: 15px 20px;
-    border-color: rgb(135, 136, 136);
+}
+
+.header .navbar li{
+    display: inline-block;
+    padding: 180px 180px 180px;
+    
+}
+
+.header .navbar li:hover{
+    transform: scale(1.1);
+}
+
+.header .navbar a{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
     color: white;
 }
 
-.button--tercero{
-    width: 33%;
-    height: 50%;
-    background-color: rgb(135, 136, 136);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    display: inline-block;
-    padding: 15px 20px;
-    border-color: rgb(135, 136, 136);
+label{
     color: white;
+}
+.registro{
+    width: 400px;
+    background-color: gray;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: calibri;
+    color: black;
+}
+.datos{
+    width: 95%;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15;
+    font-family: calibri;
+    font-size: 15px;
+    border: 3px solid black;
+}
+.tittle--size--big{
+    font-family: Calibri;
+    font-size: 50;
+    text-align-last: center;
+    margin-bottom: 20px;
+    background-color: black;
 }
