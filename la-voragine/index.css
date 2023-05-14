@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50% 50%;   
+}
+p {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-right: 100px;
+}
+h1 {
+    text-align: end;
+}
+a {
+    font-size: 20px;
+    color: rgba(61, 208, 139, 0.791);
+    text-decoration: none;
+}
+.tamaño {
+    height: 100vh;
+    width: 100%;    
+}
+.imagen-fragmento {
+    height: 250px;
+    width: 250px;
+}
+.imagen-pintura {
+    height: 250px;
+    width: 250px;
+}
+.contenedor-imagen-pintura {
+    display: flex;
+    flex-direction: column;
+}
+/* img:hover {
+    height: 100px;
+    width: 200px;
+} */
+#seccion-1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#seccion-3 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#subtitulo-seccion-2 {
+    margin-bottom: 30px;
+}
+#contenedor-imagenes-seccion-2 {
+    display: flex;
+    justify-content: space-around;
+}
+#contenedor-imagenes-seccion-4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#nombre-autor {
+    margin-left: 50px;
+    font-size: 1.5em;
+}
+body {
+    font-size: 20px; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 3em;
+    line-height: 1.2; 
+}
+p {
+    font-size: 1.5em; 
+    line-height: 1.5; 
+    padding: 10px; 
+}

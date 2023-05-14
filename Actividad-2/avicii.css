@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 3px;
     font-family:"Nunito", sans-serif;
     font-size: 20px;
 }
@@ -65,11 +65,10 @@ h1{
 h2{
     color: white;
 }
-h3{
-    color: white;
-}
+
 p{
     color: white;
+    padding: 10PX;
 }
 
 label{
@@ -78,11 +77,11 @@ label{
 .registro{
     width: 400px;
     background-color: gray;
-    padding: 30px;
+    padding: 40px;
     margin: auto;
     margin-top: 50px;
-    border-radius: 4px;
-    font-family: calibri;
+    border-radius: 10px;
+    font-family: dosis;
     color: black;
 }
 .datos{
@@ -91,14 +90,21 @@ label{
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 15;
-    font-family: calibri;
+    font-family: dosis;
     font-size: 15px;
     border: 3px solid black;
 }
 .tittle--size--big{
-    font-family: Calibri;
-    font-size: 50;
+    font-family: dosis;
+    font-size: 35px;
     text-align-last: center;
     margin-bottom: 20px;
-    background-color: black;
+    color: white;
+}
+.two-columns {
+    columns: 2; 
+    column-gap: 20px; 
+}
+* {
+    font-family: 'Dosis', sans-serif;
 }
